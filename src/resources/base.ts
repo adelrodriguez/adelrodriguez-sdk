@@ -78,8 +78,14 @@ export abstract class Base {
       headers,
     })
 
+    if (response.status === 401) throw new Error("Unauthorized")
+
     if (response.status === 429) {
       throw new Error("Rate limit exceeded")
+    }
+
+    if (!response.ok) {
+      throw new Error("Something went wrong. Status code: " + response.status)
     }
 
     return response.json()

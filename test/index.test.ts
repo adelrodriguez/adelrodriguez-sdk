@@ -9,6 +9,16 @@ describe("Client", () => {
     client = new Client({ apiKey: process.env.API_KEY })
   })
 
+  describe("authentication", () => {
+    const unauthorizedClient = new Client({ apiKey: "123" })
+
+    test("throws an error when the API key is invalid", async () => {
+      await expect(unauthorizedClient.movies.list()).rejects.toThrow(
+        "Unauthorized"
+      )
+    })
+  })
+
   describe("resources", () => {
     describe("movies", () => {
       test("fetches a list of movies", async () => {
