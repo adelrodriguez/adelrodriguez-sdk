@@ -15,7 +15,7 @@ npm install adelrodriguez-sdk
 ```typescript
 import SDK from "adelrodriguez-sdk"
 
-const sdk = new SDK({ apiKey: "fN4NgvRGuUxoYMZqSMHC" })
+const sdk = new SDK({ apiKey: "your-api-key" })
 
 sdk.movies.list({ limit: 1 }).then((movies) => {
   console.log(movies)
@@ -30,7 +30,7 @@ Copy the repository to your local environment and install dependencies:
 npm install
 ```
 
-Then copy the `.env.example` file to `.env` and fill in the `API_KEY` variable with your API key.
+Then duplicate the `.env.template` file to `.env` and fill in the `API_KEY` variable with your API key.
 
 Finally, run the tests:
 
