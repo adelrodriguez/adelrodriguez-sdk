@@ -1,4 +1,4 @@
-import Client from "~/index"
+import Client from "../src"
 
 let client: Client
 const fellowshipOfTheRingId = "5cd95395de30eff6ebccde5c"

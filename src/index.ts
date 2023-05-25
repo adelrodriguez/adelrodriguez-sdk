@@ -1,6 +1,6 @@
-import { Movies } from "~/resources/movies"
-import { Quotes } from "~/resources/quotes"
-import { ClientConfig } from "~/resources/base"
+import { Movies } from "./resources/movies"
+import { Quotes } from "./resources/quotes"
+import { ClientConfig } from "./resources/base"
 
 export default class Client {
   public movies: Movies

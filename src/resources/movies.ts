@@ -4,8 +4,8 @@ import {
   PaginationOptions,
   SortOptions,
   Base,
-} from "~/resources/base"
-import { Quote } from "~/resources/quotes"
+} from "./base"
+import { Quote } from "./quotes"
 
 export type Movie = {
   _id: string

@@ -1,3 +1,5 @@
+import "isomorphic-fetch"
+
 import { Movie } from "./movies"
 import { Quote } from "./quotes"
 

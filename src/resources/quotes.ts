@@ -4,7 +4,7 @@ import {
   FilterOptions,
   PaginationOptions,
   SortOptions,
-} from "~/resources/base"
+} from "./base"
 
 export type Quote = {
   _id: string

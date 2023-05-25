@@ -4,10 +4,9 @@
     "test/**/*.ts"
   ],
   "compilerOptions": {
-    "paths": {
-      "~/*": [
-        "src/*"
-      ],
-    }
+    "lib": [
+      "es2015",
+      "DOM"
+    ]
   }
 }
