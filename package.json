@@ -1,7 +1,12 @@
 {
   "name": "adelrodriguez-sdk",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "An SDK for The One API",
+  "repository": "https://github.com/adelrodriguez/adelrodriguez-sdk.git",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "source": "src/index.ts",
   "main": "dist/main.cjs",
   "module": "dist/module.mjs",
