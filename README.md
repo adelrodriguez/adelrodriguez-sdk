@@ -2,6 +2,8 @@
 
 This is a small SDK for the [The One API](https://the-one-api.dev/), written in TypeScript.
 
+[See package in npm](https://www.npmjs.com/package/adelrodriguez-sdk)
+
 ## Installation
 
 ```bash
